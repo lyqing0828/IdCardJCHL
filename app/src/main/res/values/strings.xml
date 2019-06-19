@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">身份稽查核录</string>
+
+
+    <!-- 登录界面 -->
+    <string name="login_title_theme_title">身份证稽查核录终端</string>
+    <string name="login_title_text_title">登录</string>
+    <string name="login_edit_user_id_hint">请输入警号编码</string>
+    <string name="login_edit_password_hint">请输入密码</string>
+    <string name="login_btn_login">登录</string>
+    <string name="login_title_down_theme_title">河南省禹州市公安局监制</string>
+    <string name="title_activity_application_service">ApplicationService</string>
+    <string name="login_msg_success">登录成功</string>
+
+
+</resources>

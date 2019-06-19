@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- 调色板 -->
+    <color name="blue">#ff17b6ed</color>
+    <color name="dark_blue">#ff187fa8</color>
+    <color name="yellow">#fffff4b9</color>
+    <color name="dark_yellow">#ffd8cd8f</color>
+    <color name="green">#00FF00</color>
+    <color name="brown">#ffc88b55</color>
+    <color name="red">#ffff0000</color>
+    <color name="white">#ffffffff</color>
+    <color name="smoke_white">#ffebebeb</color>
+    <color name="light_gray">#ffdddddd</color>
+    <color name="gray">#ffbbbbbb</color>
+    <color name="dark_gray">#ff999999</color>
+    <color name="black">#ff333333</color>
+    <color name="translucence">#4B000000</color>
+    <color name="scan_bg">#7f000000</color>
+    <!-- 全局公用 -->
+    <color name="status_bar">#ff000000</color>
+    <color name="activity_base_background">@color/white</color>
+    <color name="keyboard_background">@color/gray</color>
+    <color name="keyboard_key">@color/black</color>
+    <color name="title_background">@color/dark_blue</color>
+    <color name="title_text_title">@color/white</color>
+    <color name="title_text_right">@color/white</color>
+    <color name="net_bar_normal">@color/yellow</color>
+    <color name="net_bar_pressed">@color/dark_yellow</color>
+    <color name="net_bar_text_info">@color/brown</color>
+    <color name="notice_bar_normal">@color/yellow</color>
+    <color name="notice_bar_pressed">@color/dark_yellow</color>
+    <color name="notice_bar_text_info">@color/brown</color>
+    <color name="btn_blue_normal">@color/blue</color>
+    <color name="btn_blue_pressed">@color/gray</color>
+    <color name="btn_gray_normal">@color/light_gray</color>
+    <color name="btn_gray_pressed">@color/gray</color>
+    <color name="bar_normal">@color/white</color>
+    <color name="bar_pressed">@color/smoke_white</color>
+    <color name="bar_border">@color/light_gray</color>
+    <color name="input_background">@color/smoke_white</color>
+    <color name="dialog_background">@color/smoke_white</color>
+    <color name="info_dialog_text_title">@color/black</color>
+    <color name="info_dialog_text_info">@color/black</color>
+    <color name="info_dialog_btn">@color/white</color>
+    <color name="loading_dialog_text">@color/dark_gray</color>
+    <color name="choice_dialog_text_title">@color/black</color>
+    <color name="choice_dialog_list_divider">@color/light_gray</color>
+    <color name="choice_dialog_item_text">@color/black</color>
+    <color name="choice_dialog_item_normal">@color/white</color>
+    <color name="choice_dialog_item_pressed">@color/smoke_white</color>
+    <color name="confirm_dialog_text_title">@color/black</color>
+    <color name="confirm_dialog_text_info">@color/black</color>
+    <color name="confirm_dialog_btn">@color/white</color>
+    <color name="input_dialog_text_title">@color/black</color>
+    <color name="input_dialog_edit_text">@color/black</color>
+    <color name="input_dialog_edit_hint">@color/dark_gray</color>
+    <color name="input_dialog_btn">@color/white</color>
+    <color name="grid_dialog_text">@color/black</color>
+    <color name="download_dialog_text_title">@color/black</color>
+    <color name="download_dialog_text_info">@color/black</color>
+    <color name="progress_background">#ffd3f4fd</color>
+    <color name="progress_progress">#ff73d7f9</color>
+
+    <!-- 自动部署界面 -->
+    <color name="auto_config_text">@color/black</color>
+    <color name="auto_config_btn_text">@color/white</color>
+
+    <!-- 登录界面 -->
+    <color name="login_text_label">@color/dark_blue</color>
+    <color name="login_edit_text">@color/black</color>
+    <color name="login_edit_hint">@color/dark_gray</color>
+    <color name="login_btn_text">@color/white</color>
+    <color name="login_text_update">@color/dark_blue</color>
+    <color name="login_text_version">@color/dark_gray</color>
+
+    <!-- 更新版本界面 -->
+    <color name="update_text_label">@color/dark_blue</color>
+    <color name="update_edit_text">@color/black</color>
+    <color name="update_btn_text">@color/white</color>
+    <color name="update_text_version">@color/dark_gray</color>
+
+    <!-- 人脸检测界面 -->
+
+    <!-- 主界面 -->
+    <color name="main_gap">@color/gray</color>
+    <color name="main_tab_normal">@color/smoke_white</color>
+    <color name="main_tab_selected">@color/white</color>
+    <color name="main_tab_text_normal">@color/dark_gray</color>
+    <color name="main_tab_text_selected">@color/blue</color>
+
+    <!-- 主页界面 -->
+    <color name="home_text">@color/dark_blue</color>
+    <color name="home_line">@color/blue</color>
+    <color name="home_panel_normal">@color/white</color>
+    <color name="home_panel_selected">@color/light_gray</color>
+
+    <!-- 简易处罚界面 -->
+    <color name="summary_punishment_text_label">@color/dark_blue</color>
+    <color name="summary_punishment_bar_text_label">@color/dark_gray</color>
+    <color name="summary_punishment_bar_text_content">@color/black</color>
+    <color name="summary_punishment_bar_edit_text">@color/black</color>
+    <color name="summary_punishment_btn_text">@color/white</color>
+
+    <!-- 强制措施界面 -->
+    <color name="enforcement_measure_text_label">@color/dark_blue</color>
+    <color name="enforcement_measure_bar_text_label">@color/dark_gray</color>
+    <color name="enforcement_measure_bar_text_content">@color/black</color>
+    <color name="enforcement_measure_bar_edit_text">@color/black</color>
+    <color name="enforcement_measure_bar_check_text">@color/black</color>
+    <color name="enforcement_measure_btn_text">@color/white</color>
+
+    <!-- 违停录入界面 -->
+    <color name="illegally_parked_text_label">@color/dark_blue</color>
+    <color name="illegally_parked_bar_text_label">@color/dark_gray</color>
+    <color name="illegally_parked_bar_text_content">@color/black</color>
+    <color name="illegally_parked_bar_edit_text">@color/black</color>
+    <color name="illegally_parked_btn_text">@color/white</color>
+
+    <!-- 非现场录入界面 -->
+    <color name="off_site_text_label">@color/dark_blue</color>
+    <color name="off_site_bar_text_label">@color/dark_gray</color>
+    <color name="off_site_bar_text_content">@color/black</color>
+    <color name="off_site_bar_edit_text">@color/black</color>
+    <color name="off_site_btn_text">@color/white</color>
+
+    <!-- 驾驶人查询界面 -->
+    <color name="driver_query_text_label">@color/dark_gray</color>
+    <color name="driver_query_edit_text">@color/black</color>
+    <color name="driver_query_text_tips">@color/dark_gray</color>
+    <color name="driver_query_btn_text">@color/white</color>
+    <color name="driver_query_gap">@color/gray</color>
+    <color name="driver_query_detail_text_label">@color/dark_gray</color>
+    <color name="driver_query_detail_text_content">@color/black</color>
+
+    <!-- 机动车查询界面 -->
+    <color name="vehicle_query_text_label">@color/dark_gray</color>
+    <color name="vehicle_query_spinner_text">@color/black</color>
+    <color name="vehicle_query_edit_text">@color/black</color>
+    <color name="vehicle_query_btn_text">@color/white</color>
+    <color name="vehicle_query_gap">@color/gray</color>
+    <color name="vehicle_query_detail_text_label">@color/dark_gray</color>
+    <color name="vehicle_query_detail_text_content">@color/black</color>
+
+    <!-- 选择违法时间界面 -->
+    <color name="select_datetime_btn_text">@color/white</color>
+
+    <!-- 选择违法地址界面 -->
+    <color name="select_address_item_normal">@color/white</color>
+    <color name="select_address_item_pressed">@color/smoke_white</color>
+    <color name="select_address_item_text_subject">@color/black</color>
+    <color name="select_address_item_text_content">@color/dark_gray</color>
+
+    <!-- 选择违法行为界面 -->
+    <color name="select_behavior_item_normal">@color/white</color>
+    <color name="select_behavior_item_pressed">@color/smoke_white</color>
+    <color name="select_behavior_item_text_subject">@color/black</color>
+    <color name="select_behavior_item_text_content">@color/dark_gray</color>
+
+    <!-- 拍照界面 -->
+
+    <!-- 图片界面 -->
+
+    <!-- 网页界面 -->
+
+    <!-- 警务直播界面 -->
+    <color name="police_live_panel_normal">@color/white</color>
+    <color name="police_live_panel_selected">@color/light_gray</color>
+    <color name="police_live_text">@color/dark_blue</color>
+
+    <!-- 开直播界面 -->
+    <color name="open_live_text">@color/white</color>
+
+    <!-- 看直播界面 -->
+    <color name="watch_live_text">@color/white</color>
+    <color name="watch_live_check_text">@color/white</color>
+
+    <!-- 个人界面 -->
+    <color name="personal_panel_normal">@color/white</color>
+    <color name="personal_panel_selected">@color/light_gray</color>
+    <color name="personal_text">@color/dark_blue</color>
+
+    <!-- 修改常用违法行为界面 -->
+    <color name="edit_common_behavior_item_normal">@color/white</color>
+    <color name="edit_common_behavior_item_pressed">@color/smoke_white</color>
+    <color name="edit_common_behavior_item_text_subject">@color/black</color>
+    <color name="edit_common_behavior_item_text_content">@color/dark_gray</color>
+
+    <!-- 添加常用违法行为界面 -->
+    <color name="add_common_behavior_text_label">@color/dark_gray</color>
+    <color name="add_common_behavior_edit_text">@color/black</color>
+    <color name="add_common_behavior_btn_text">@color/white</color>
+    <color name="add_common_behavior_gap">@color/gray</color>
+    <color name="add_common_behavior_item_normal">@color/white</color>
+    <color name="add_common_behavior_item_pressed">@color/smoke_white</color>
+    <color name="add_common_behavior_item_text_subject">@color/black</color>
+    <color name="add_common_behavior_item_text_content">@color/dark_gray</color>
+
+    <!-- 修改常用违法地址界面 -->
+    <color name="edit_common_address_item_normal">@color/white</color>
+    <color name="edit_common_address_item_pressed">@color/smoke_white</color>
+    <color name="edit_common_address_item_text_subject">@color/black</color>
+    <color name="edit_common_address_item_text_content">@color/dark_gray</color>
+
+    <!-- 添加常用违法地址界面 -->
+    <color name="add_common_address_text_label">@color/dark_gray</color>
+    <color name="add_common_address_edit_text">@color/black</color>
+    <color name="add_common_address_text_road_number">@color/dark_gray</color>
+    <color name="add_common_address_edit_road_number">@color/black</color>
+    <color name="add_common_address_btn_text">@color/white</color>
+    <color name="add_common_address_gap">@color/gray</color>
+    <color name="add_common_address_item_normal">@color/white</color>
+    <color name="add_common_address_item_pressed">@color/smoke_white</color>
+    <color name="add_common_address_item_text_subject">@color/black</color>
+    <color name="add_common_address_item_text_content">@color/dark_gray</color>
+
+    <!-- 执法历史查询界面 -->
+    <color name="result_query_panel_normal">@color/white</color>
+    <color name="result_query_panel_selected">@color/light_gray</color>
+    <color name="result_query_text">@color/dark_blue</color>
+
+    <!-- 简易处罚执法历史界面 -->
+    <color name="summary_punishment_result_item_normal">@color/white</color>
+    <color name="summary_punishment_result_item_pressed">@color/smoke_white</color>
+    <color name="summary_punishment_result_item_text_subject">@color/black</color>
+    <color name="summary_punishment_result_item_text_content">@color/dark_gray</color>
+    <color name="summary_punishment_result_item_btn_text">@color/white</color>
+    <color name="summary_punishment_result_item_up_state_error">@color/red</color>
+    <color name="summary_punishment_result_item_up_state">@color/green</color>
+    <!-- 强制措施执法历史界面 -->
+    <color name="enforcement_measure_result_item_normal">@color/white</color>
+    <color name="enforcement_measure_result_item_pressed">@color/smoke_white</color>
+    <color name="enforcement_measure_result_item_text_subject">@color/black</color>
+    <color name="enforcement_measure_result_item_text_content">@color/dark_gray</color>
+    <color name="enforcement_measure_result_item_btn_text">@color/white</color>
+
+    <!-- 违停录入执法历史界面 -->
+    <color name="illegally_parked_result_item_normal">@color/white</color>
+    <color name="illegally_parked_result_item_pressed">@color/smoke_white</color>
+    <color name="illegally_parked_result_item_text_subject">@color/black</color>
+    <color name="illegally_parked_result_item_text_content">@color/dark_gray</color>
+    <color name="illegally_parked_result_item_btn_text">@color/white</color>
+
+    <!-- 非现场录入执法历史界面 -->
+    <color name="off_site_result_item_normal">@color/white</color>
+    <color name="off_site_result_item_pressed">@color/smoke_white</color>
+    <color name="off_site_result_item_text_subject">@color/black</color>
+    <color name="off_site_result_item_text_content">@color/dark_gray</color>
+
+    <!-- 设备信息界面 -->
+    <color name="device_info_text_label">@color/dark_gray</color>
+    <color name="device_info_text_content">@color/black</color>
+
+    <!-- 警员信息界面 -->
+    <color name="police_info_text_label">@color/dark_gray</color>
+    <color name="police_info_text_content">@color/black</color>
+
+    <!-- 修改密码界面 -->
+    <color name="edit_password_text_label">@color/dark_gray</color>
+    <color name="edit_password_text_content">@color/black</color>
+    <color name="edit_password_edit_text">@color/black</color>
+    <color name="edit_password_btn_text">@color/white</color>
+
+    <!-- 指纹录入界面 -->
+    <color name="fingerprint_input_btn_text">@color/white</color>
+    <color name="fingerprint_input_text_info">@color/black</color>
+
+    <!-- 人脸录入界面 -->
+
+    <!-- 建设中界面 -->
+</resources>

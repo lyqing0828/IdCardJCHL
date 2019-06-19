@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/activity_title_layout"
+        android:id="@+id/title_include"></include>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_jybh"
+        android:background="@null"
+        android:layout_marginTop="10dp"
+        android:text="101617"
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:layout_marginLeft="10dp"
+        android:maxLength="12"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:singleLine="true"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/tv_jybh_name"
+        android:background="@null"
+        android:layout_marginTop="10dp"
+        android:text="孙辉"
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:layout_marginLeft="10dp"
+        android:maxLength="12"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:singleLine="true"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/tv_bmdm"
+        android:background="@null"
+        android:layout_marginTop="10dp"
+        android:text="3700000220200"
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:layout_marginLeft="10dp"
+        android:maxLength="12"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:singleLine="true"
+        android:textSize="18sp"/>
+
+    <Spinner
+        android:id="@+id/list_region"
+        android:layout_marginTop="10dp"
+        android:text="3700000220200"
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:layout_marginLeft="10dp"
+        android:maxLength="12"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:singleLine="true"
+        android:textSize="18sp"
+        >       <!--通过entries属性指定一个下拉列表项，是一个数组资源-->
+    </Spinner>
+
+    <Spinner
+        android:id="@+id/list_station"
+        android:layout_marginTop="10dp"
+        android:text="3700000220200"
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:layout_marginLeft="10dp"
+        android:maxLength="12"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:singleLine="true"
+        android:textSize="18sp">       <!--通过entries属性指定一个下拉列表项，是一个数组资源-->
+    </Spinner>
+
+        <Spinner
+            android:id="@+id/list_location"
+            android:layout_marginTop="10dp"
+            android:text="3700000220200"
+            android:layout_width="fill_parent"
+            android:layout_height="35dp"
+            android:layout_marginLeft="10dp"
+            android:maxLength="12"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:singleLine="true"
+            android:textSize="18sp">       <!--通过entries属性指定一个下拉列表项，是一个数组资源-->
+        </Spinner>
+
+    <Button
+        android:id="@+id/btn_dataupdate"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:text="数据更新"
+        android:background="@drawable/selector_btn_blue"
+        android:textColor="@color/login_btn_text"
+        android:textSize="16sp"/>
+
+    <Button
+        android:id="@+id/btn_datacheck"
+        android:text="数据核查"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:background="@drawable/selector_btn_blue"
+        android:textColor="@color/login_btn_text"
+        android:textSize="16sp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

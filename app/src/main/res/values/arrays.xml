@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="select">
+        <item>公安检查站</item>
+        <item>自建检查站</item>
+        <item>5号公安按检查站</item>
+    </string-array>
+    
+    <string-array name="documentgtype">
+        <item>身份证</item>
+        <item>驾驶证</item>
+        <item>社保</item>
+    </string-array>
+
+</resources>
